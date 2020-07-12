@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Picture_Viewer
 {
-    public partial class Form1 : Form
+    public partial class Viewer : Form
     {
-        public Form1()
+        public Viewer()
         {
             InitializeComponent();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
