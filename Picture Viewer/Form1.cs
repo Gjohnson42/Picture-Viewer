@@ -17,7 +17,30 @@ namespace Picture_Viewer
             InitializeComponent();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void stretchCBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowBtn_Click(object sender, EventArgs e)
+        {
+            if(openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Load(openFileDialog1.FileName);
+            }
+        }
+
+        private void closeBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundBtn_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void clearBtn_Click(object sender, EventArgs e)
         {
 
         }
